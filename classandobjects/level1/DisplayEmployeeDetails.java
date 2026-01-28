@@ -1,6 +1,9 @@
 package level1;
 
-// This class stores employee details and displays them using an object
+/*
+ * This class stores employee information such as
+ * name, id, and salary, and displays it using a method.
+ */
 
 class DisplayEmployeeDetails {
 
@@ -8,12 +11,20 @@ class DisplayEmployeeDetails {
     int id;
     double salary;
 
+    /*
+     * This method prints employee details
+     * in a structured format.
+     */
     void display() {
         System.out.println("Name: " + name);
         System.out.println("ID: " + id);
         System.out.println("Salary: " + salary);
     }
 
+    /*
+     * Main method creates an employee object,
+     * assigns values, and displays the details.
+     */
     public static void main(String[] args) {
         DisplayEmployeeDetails emp = new DisplayEmployeeDetails();
 
@@ -24,4 +35,3 @@ class DisplayEmployeeDetails {
         emp.display();
     }
 }
-

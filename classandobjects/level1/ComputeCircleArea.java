@@ -1,11 +1,15 @@
 package level1;
 
-// This class calculates and displays area and circumference of a circle using radius
+/*
+ * Calculates area and circumference of a circle
+ * using the given radius value.
+ */
 
 class ComputeCircleArea {
 
     double radius;
 
+    /* Calculates and prints area and circumference */
     void calculate() {
         double area = Math.PI * radius * radius;
         double circumference = 2 * Math.PI * radius;
@@ -14,12 +18,10 @@ class ComputeCircleArea {
         System.out.println("Circumference: " + circumference);
     }
 
+    /* Program entry point */
     public static void main(String[] args) {
         ComputeCircleArea c = new ComputeCircleArea();
         c.radius = 7;
-
         c.calculate();
     }
 }
-
-
