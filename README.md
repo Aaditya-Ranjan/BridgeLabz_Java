@@ -1,1 +1,1 @@
-# BridgeLabz_Java
+# BridgeLabz-Training
