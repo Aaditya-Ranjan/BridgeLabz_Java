@@ -10,15 +10,14 @@ public class VotingArray {
         for (int i = 0; i < ages.length; i++)
             ages[i] = sc.nextInt();
 
-        for (int i = 0; i < ages.length; i++) {
-            if (ages[i] < 0)
+        for (int age : ages) {
+            if (age < 0)
                 System.out.println("Invalid age");
-            else if (ages[i] >= 18)
-                System.out.println("The student with the age " + ages[i] + " can vote");
+            else if (age >= 18)
+                System.out.println("The student with the age " + age + " can vote");
             else
-                System.out.println("The student with the age " + ages[i] + " cannot vote");
+                System.out.println("The student with the age " + age + " cannot vote");
         }
-
         sc.close();
     }
 }
