@@ -1,4 +1,4 @@
-package arrays.level1;
+package level1;
 import java.util.Scanner;
 
 public class VotingArray {
