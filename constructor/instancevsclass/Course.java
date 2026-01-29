@@ -2,6 +2,12 @@ package instancevsclass;
 
 import java.util.Scanner;
 
+/*
+ * This class demonstrates the difference between
+ * instance variables and class variables.
+ * It uses instance and static methods to display data.
+ */
+
 class Course {
 
     // Instance variables
@@ -12,13 +18,14 @@ class Course {
     // Class variable
     static String instituteName = "Default Institute";
 
+    // Initializes course details using constructor
     Course(String name, int duration, double fee) {
         this.courseName = name;
         this.duration = duration;
         this.fee = fee;
     }
 
-    // Instance method
+    // Displays instance and class variable values
     void displayCourseDetails() {
         System.out.println("Course: " + courseName);
         System.out.println("Duration: " + duration + " months");
@@ -26,11 +33,12 @@ class Course {
         System.out.println("Institute: " + instituteName);
     }
 
-    // Class method
+    // Updates class variable value
     static void updateInstituteName(String name) {
         instituteName = name;
     }
 
+    // Main method to take input and demonstrate instance vs class variables
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -50,4 +58,3 @@ class Course {
         c.displayCourseDetails();
     }
 }
-

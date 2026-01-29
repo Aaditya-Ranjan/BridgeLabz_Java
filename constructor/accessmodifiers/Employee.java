@@ -2,21 +2,29 @@ package accessmodifiers;
 
 import java.util.Scanner;
 
+/*
+ * This program demonstrates access modifiers in Java.
+ * It shows the use of public, protected, and private variables
+ * along with inheritance and getter/setter methods.
+ */
+
 class Employee {
 
-    public int employeeID;        // public
-    protected String department;  // protected
-    private double salary;        // private
+    public int employeeID;        // public variable
+    protected String department;  // protected variable
+    private double salary;        // private variable
 
-    // public methods for private salary
+    // Sets value for private salary
     public void setSalary(double s) {
         salary = s;
     }
 
+    // Returns value of private salary
     public double getSalary() {
         return salary;
     }
 
+    // Main method to take input and demonstrate access control
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -38,11 +46,16 @@ class Employee {
     }
 }
 
+/*
+ * This class extends Employee.
+ * It accesses public and protected members using inheritance.
+ */
+
 class Manager extends Employee {
 
+    // Displays inherited employee details
     void display() {
         System.out.println("Employee ID: " + employeeID);
         System.out.println("Department: " + department);
     }
 }
-

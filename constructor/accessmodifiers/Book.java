@@ -2,21 +2,29 @@ package accessmodifiers;
 
 import java.util.Scanner;
 
+/*
+ * This program demonstrates access modifiers in Java.
+ * It shows public, protected, and private variables
+ * along with inheritance and getter/setter usage.
+ */
+
 class Book {
 
-    public String ISBN;        // public
-    protected String title;    // protected
-    private String author;     // private
+    public String ISBN;        // public variable
+    protected String title;    // protected variable
+    private String author;     // private variable
 
-    // public methods for private author
+    // Sets value for private author
     public void setAuthor(String a) {
         author = a;
     }
 
+    // Returns value of private author
     public String getAuthor() {
         return author;
     }
 
+    // Main method to take input and demonstrate access control
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -37,11 +45,16 @@ class Book {
     }
 }
 
+/*
+ * This class extends Book.
+ * It accesses public and protected members using inheritance.
+ */
+
 class EBook extends Book {
 
+    // Displays inherited book details
     void display() {
         System.out.println("ISBN: " + ISBN);
         System.out.println("Title: " + title);
     }
 }
-

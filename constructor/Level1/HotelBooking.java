@@ -2,7 +2,11 @@ package Level1;
 
 import java.util.Scanner;
 
-// Hotel booking using default, parameterized and copy constructors with Scanner
+/*
+ * This class simulates a hotel booking system.
+ * It uses default, parameterized, and copy constructors
+ * with Scanner input to manage booking details.
+ */
 
 class HotelBooking {
 
@@ -10,28 +14,33 @@ class HotelBooking {
     private String roomType;
     private int nights;
 
+    // Initializes booking with default values
     HotelBooking() {
         guestName = "Guest";
         roomType = "Standard";
         nights = 1;
     }
 
+    // Initializes booking using parameterized constructor
     HotelBooking(String guestName, String roomType, int nights) {
         this.guestName = guestName;
         this.roomType = roomType;
         this.nights = nights;
     }
 
+    // Initializes booking using copy constructor
     HotelBooking(HotelBooking hb) {
         this.guestName = hb.guestName;
         this.roomType = hb.roomType;
         this.nights = hb.nights;
     }
 
+    // Displays booking details
     void display() {
         System.out.println(guestName + " | " + roomType + " | " + nights);
     }
 
+    // Main method to take input and demonstrate constructors
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -49,4 +58,3 @@ class HotelBooking {
         b2.display();
     }
 }
-

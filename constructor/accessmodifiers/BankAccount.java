@@ -2,21 +2,29 @@ package accessmodifiers;
 
 import java.util.Scanner;
 
+/*
+ * This program demonstrates access modifiers in Java.
+ * It shows public, protected, and private variables
+ * along with inheritance and encapsulation using getter/setter methods.
+ */
+
 class BankAccount {
 
-    public int accountNumber;        // public
-    protected String accountHolder;  // protected
-    private double balance;          // private
+    public int accountNumber;        // public variable
+    protected String accountHolder;  // protected variable
+    private double balance;          // private variable
 
-    // public methods for private balance
+    // Sets value for private balance
     public void setBalance(double b) {
         balance = b;
     }
 
+    // Returns value of private balance
     public double getBalance() {
         return balance;
     }
 
+    // Main method to take input and demonstrate access control
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -38,8 +46,14 @@ class BankAccount {
     }
 }
 
+/*
+ * This class extends BankAccount.
+ * It accesses public and protected members using inheritance.
+ */
+
 class SavingsAccount extends BankAccount {
 
+    // Displays inherited account details
     void display() {
         System.out.println("Account No: " + accountNumber);
         System.out.println("Holder: " + accountHolder);
