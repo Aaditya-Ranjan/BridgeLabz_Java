@@ -1,4 +1,4 @@
-#📚 Daily Progress Log - BridgeLabz Training
+# 📘 Daily Progress Log - BridgeLabz Training
 
 - **12-Jan-2025 (Mon):** Installed Git, Gitflow and Eclipse IDE
 
