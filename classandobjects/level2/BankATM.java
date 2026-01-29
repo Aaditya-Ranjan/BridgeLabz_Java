@@ -1,6 +1,10 @@
 package level2;
 
-// This class simulates ATM operations using a parameterized constructor
+/*
+ * This class simulates basic ATM operations.
+ * It uses a parameterized constructor to initialize
+ * account details and perform banking transactions.
+ */
 
 class BankATM {
 
@@ -8,17 +12,19 @@ class BankATM {
     long accountNumber;
     double balance;
 
-    // Parameterized Constructor
+    // Initializes account details using parameterized constructor
     BankATM(String accountHolder, long accountNumber, double balance) {
         this.accountHolder = accountHolder;
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
 
+    // Adds amount to account balance
     void deposit(double amt) {
         balance += amt;
     }
 
+    // Withdraws amount if sufficient balance is available
     void withdraw(double amt) {
         if (amt <= balance)
             balance -= amt;
@@ -26,11 +32,13 @@ class BankATM {
             System.out.println("Insufficient Balance");
     }
 
+    // Displays account holder name and current balance
     void displayBalance() {
         System.out.println("Account Holder: " + accountHolder);
         System.out.println("Current Balance: " + balance);
     }
 
+    // Main method to test ATM operations
     public static void main(String[] args) {
         BankATM acc = new BankATM("Rohit", 123456, 5000);
 
@@ -39,4 +47,3 @@ class BankATM {
         acc.displayBalance();
     }
 }
-

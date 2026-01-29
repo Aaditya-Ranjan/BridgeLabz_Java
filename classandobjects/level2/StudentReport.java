@@ -1,6 +1,10 @@
 package level2;
 
-// This class stores student data, calculates grade, and displays full report using constructor
+/*
+ * This class stores student information.
+ * It uses a parameterized constructor to initialize data,
+ * calculate grade, and display a complete student report.
+ */
 
 class StudentReport {
 
@@ -8,13 +12,14 @@ class StudentReport {
     int rollNumber;
     int marks;
 
-    // Parameterized Constructor
+    // Initializes student details using constructor
     StudentReport(String name, int rollNumber, int marks) {
         this.name = name;
         this.rollNumber = rollNumber;
         this.marks = marks;
     }
 
+    // Calculates and returns grade based on marks
     String calculateGrade() {
         if (marks >= 90) return "A";
         else if (marks >= 75) return "B";
@@ -22,6 +27,7 @@ class StudentReport {
         else return "Fail";
     }
 
+    // Displays full student report
     void display() {
         System.out.println("Name: " + name);
         System.out.println("Roll No: " + rollNumber);
@@ -29,6 +35,7 @@ class StudentReport {
         System.out.println("Grade: " + calculateGrade());
     }
 
+    // Main method to create student object and display report
     public static void main(String[] args) {
         StudentReport s = new StudentReport("Aman", 12, 82);
         s.display();
