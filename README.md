@@ -32,5 +32,7 @@
 
 - **30-Jan-2025 (Fri):** Learned and practiced different types of UML diagrams such as class, along with understanding relationships like association, aggregation, and composition, and solved related
 
+- **31-Jan-2025 (Sat):** Learned about different types of inheritance like single,multilevel, hierarchical and hybrid inheritance and completed the inheritance assignment
+
 
 
