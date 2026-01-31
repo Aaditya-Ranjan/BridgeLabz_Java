@@ -30,4 +30,7 @@
 
 - **29-Jan-2025 (Thu):** Solved Java Keywords Problem and learned about this, static, final keyword and concepts of instanceof operator
 
+- **30-Jan-2025 (Fri):** Learned and practiced different types of UML diagrams such as class, along with understanding relationships like association, aggregation, and composition, and solved related
+
+
 
