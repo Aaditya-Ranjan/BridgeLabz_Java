@@ -34,5 +34,8 @@
 
 - **31-Jan-2025 (Sat):** Learned about different types of inheritance like single,multilevel, hierarchical and hybrid inheritance and completed the inheritance assignment
 
+- **02-Feb-2026 (Mon):** Today I learned encapsulation and inheritance, practiced class extension and interfaces, and solved a few assignment questions.
+ 
+
 
 
