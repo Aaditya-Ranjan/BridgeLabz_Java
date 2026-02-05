@@ -39,6 +39,8 @@
 - **03-Feb-2026 (Tue):** Learned about different types of Linked List like single, double and circular linked list and solved a few assignment question and completed my review today of OOPS.
 
 - **04-Feb-2026 (Wed):** Completed assignment on OOPS Banner App and completed the linked list problems.
+
+- **05-Feb-2026 (Thu):** Today, we had an interaction with company representatives where we learned about the company’s work. We asked many questions and got our doubts cleared.
  
 
 
