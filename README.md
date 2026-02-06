@@ -41,6 +41,8 @@
 - **04-Feb-2026 (Wed):** Completed assignment on OOPS Banner App and completed the linked list problems.
 
 - **05-Feb-2026 (Thu):** Today, we had an interaction with company representatives where we learned about the company’s work. We asked many questions and got our doubts cleared.
+
+- **06-Feb-2026 (Fri):** Today I learned about Stack, Queue, HashMap, and Hashing in Java. I understood their internal working, key operations, and how they are used in data structures. Along with that, I practiced some assignment problems .
  
 
 
