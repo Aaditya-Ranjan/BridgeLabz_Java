@@ -45,6 +45,8 @@
 - **06-Feb-2026 (Fri):** Today I learned about Stack, Queue, HashMap, and Hashing in Java. I understood their internal working, key operations, and how they are used in data structures. Along with that, I practiced some assignment problems.
 
 - **07-Feb-2026 (Sat):** Today I learned about Bubble Sort, Insertion Sort, Merge Sort, and Quick Sort in Java. I understood their internal working and how they iterate during the sorting process. Along with that, I practiced some assignment problems.
+
+- **09-Feb-2026 (Mon):** Revised all the previously learned DSA topics, including Linked Lists, HashMaps, Queues, Stacks, and Sorting algorithms for the review.
  
 
 
