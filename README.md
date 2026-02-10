@@ -47,6 +47,8 @@
 - **07-Feb-2026 (Sat):** Today I learned about Bubble Sort, Insertion Sort, Merge Sort, and Quick Sort in Java. I understood their internal working and how they iterate during the sorting process. Along with that, I practiced some assignment problems.
 
 - **09-Feb-2026 (Mon):** Revised all the previously learned DSA topics, including Linked Lists, HashMaps, Queues, Stacks, and Sorting algorithms for the review.
+
+- **10-Feb-2026 (Tue):** Revised all previously studied DSA concepts—Linked Lists, HashMaps, Queues, Stacks, and Sorting algorithms.
  
 
 
