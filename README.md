@@ -49,6 +49,8 @@
 - **09-Feb-2026 (Mon):** Revised all the previously learned DSA topics, including Linked Lists, HashMaps, Queues, Stacks, and Sorting algorithms for the review.
 
 - **10-Feb-2026 (Tue):** Revised all previously studied DSA concepts—Linked Lists, HashMaps, Queues, Stacks, and Sorting algorithms.
+
+- **11-Feb-2026 (Wed):** Completed my review 3 with Balaji Sir and began studying searching algorithms.
  
 
 
