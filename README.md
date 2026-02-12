@@ -51,6 +51,8 @@
 - **10-Feb-2026 (Tue):** Revised all previously studied DSA concepts—Linked Lists, HashMaps, Queues, Stacks, and Sorting algorithms.
 
 - **11-Feb-2026 (Wed):** Completed my review 3 with Balaji Sir and began studying searching algorithms.
+
+- **12-Feb-2026 (Thu):** Learned about BufferedReader, FileReader, InputStreamReader, StringBuilder, StringBuffer, Runtime Analysis & Big-O Notation and completed the assignment 4,5 and 6.
  
 
 
