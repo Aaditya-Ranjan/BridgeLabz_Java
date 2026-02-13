@@ -53,6 +53,8 @@
 - **11-Feb-2026 (Wed):** Completed my review 3 with Balaji Sir and began studying searching algorithms.
 
 - **12-Feb-2026 (Thu):** Learned about BufferedReader, FileReader, InputStreamReader, StringBuilder, StringBuffer, Runtime Analysis & Big-O Notation and completed the assignment 4,5 and 6.
+
+- **13-Feb-2026 (Fri):** Learned about Generics (including generic classes, methods, bounded type parameters, and wildcards), studied the Java Collection Framework and its hierarchy, and completed Week 4 Assignments 1 and 2.
  
 
 
