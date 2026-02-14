@@ -55,6 +55,8 @@
 - **12-Feb-2026 (Thu):** Learned about BufferedReader, FileReader, InputStreamReader, StringBuilder, StringBuffer, Runtime Analysis & Big-O Notation and completed the assignment 4,5 and 6.
 
 - **13-Feb-2026 (Fri):** Learned about Generics (including generic classes, methods, bounded type parameters, and wildcards), studied the Java Collection Framework and its hierarchy, and completed Week 4 Assignments 1 and 2.
+
+- **14-Feb-2026 (Sat):** Today i completed the Factory Robot Hazard Analyzer assignment and completed studying about regex and completed the assignment 
  
 
 
