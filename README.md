@@ -56,7 +56,9 @@
 
 - **13-Feb-2026 (Fri):** Learned about Generics (including generic classes, methods, bounded type parameters, and wildcards), studied the Java Collection Framework and its hierarchy, and completed Week 4 Assignments 1 and 2.
 
-- **14-Feb-2026 (Sat):** Today i completed the Factory Robot Hazard Analyzer assignment and completed studying about regex and completed the assignment 
+- **14-Feb-2026 (Sat):** Today i completed the Factory Robot Hazard Analyzer assignment and completed studying about regex and completed the assignment
+
+- **16-Feb-2026 (Mon):** Today I learned about different types of exceptions in Java and how to handle them using keywords like try and catch. I also explored custom exceptions and completed today’s assignment.
  
 
 
