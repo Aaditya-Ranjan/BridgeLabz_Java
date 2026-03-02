@@ -59,6 +59,32 @@
 - **14-Feb-2026 (Sat):** Today i completed the Factory Robot Hazard Analyzer assignment and completed studying about regex and completed the assignment
 
 - **16-Feb-2026 (Mon):** Today I learned about different types of exceptions in Java and how to handle them using keywords like try and catch. I also explored custom exceptions and completed today’s assignment.
+
+- **17-Feb-2026 (Tue):** Learned about regex and how to write regex code and completed the assignment
+
+- **18-Feb-2026 (Wed):** Learned about Junit testing and how to write testing codes
+
+- **19-Feb-2026 (Thu):** Completed the Junit assignment and revised topics learned earlier
+
+- **20-Feb-2026 (Fri):** Learned about different assert method in java implemented in some java questions.
+
+- **21-Feb-2026 (Sat):** Completed the review today and did the remaining questions of the assignement
+
+- **23-Feb-2026 (Mon):** Learned concept related to multi-threading, learned about how to declare thread and methods like .join(),.sleep() and yield().
+
+- **24-Feb-2026 (Tue):** Studied about synchronisation in that learn about how locking mechanism works, learn about class and object level lock. Leaned about difference between static and non static synch methods.
+
+- **25-Feb-2026 (Wed):** Learned about Java streams, difference between collection and stream, what is laziness principle, intermediate and terminal operations in streams.
+
+- **26-Feb-2026 (Thu):** Studied about lambda expression and how to write code for it and completed the assignment
+
+- **27-Feb-2026 (Fri):** Stuided previous topics and completed the usecase for Quality measurement app
+
+- **28-Feb-2026 (Sat):** Completed the review and completed futher UC of Quality measurement app
+
+- **02-Mar-2026 (Mon):** Today i completed all the pending assignment and questions and completed the futher UC of quality measurement app
+
+- 
  
 
 
